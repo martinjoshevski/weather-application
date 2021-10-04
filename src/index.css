@@ -19,6 +19,11 @@ body {
 main {
   min-height: 100vh;
   padding: 25px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.4)
+  );
 }
 .search__box {
   width: 100%;
@@ -33,5 +38,16 @@ main {
   background: none;
   border: none;
   outline: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 16px;
+  box-shadow: 17px 17px 11px -13px rgba(0, 0, 0, 0.61);
+  -webkit-box-shadow: 17px 17px 11px -13px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 17px 17px 11px -13px rgba(0, 0, 0, 0.61);
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  transition: 0.4 all;
+}
+
+.serach__box .search__bar {
   background-color: rgba(255, 255, 255, 0.5);
 }
