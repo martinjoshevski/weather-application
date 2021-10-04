@@ -58,7 +58,7 @@ function App() {
       className={
         typeof weather.main != "undefined"
           ? weather.main.temp > 16
-            ? "app warm"
+            ? "app sunny"
             : "app"
           : "app"
       }
