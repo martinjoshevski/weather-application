@@ -48,6 +48,44 @@ main {
   transition: 0.4 all;
 }
 
-.serach__box .search__bar {
+.serach__box .search__bar:focus {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+.location__box .location {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 3px 3px rgba(25, 25, 25, 0.5);
+}
+.location__box .date {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+.weather__box {
+  text-align: center;
+}
+.weather__box .temp {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
   background-color: rgba(255, 255, 255, 0.5);
+  padding: 15px 15px;
+  font-size: 100px;
+  font-weight: 900;
+  color: #fff;
+  text-shadow: 3px 5px rgba(50, 60, 70, 1);
+  text-align: center;
+  box-shadow: 3px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 60px;
+}
+.weather__box .weather {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50, 50, 50, 0.75);
 }
