@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.app {
+  background-image: url("./assets/cloudy.jpg");
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease-in-out;
+}
+.app.sunny {
+  background-image: url("./assets/sunny.jpg");
+}
+main {
+  min-height: 100vh;
+  padding: 25px;
+}
+.search__box {
+  width: 100%;
+  margin: 0 0 75px;
+}
+
+.search__box .search__bar {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.5);
+}
